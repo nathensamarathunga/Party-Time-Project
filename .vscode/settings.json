@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/395895cc-48c5-4c44-8ce2-e3ca28c3c48b/resourceGroups/WSD-Website/providers/Microsoft.Web/sites/partytime",
+    "appService.deploySubpath": "."
+}

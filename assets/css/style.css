@@ -145,9 +145,10 @@ body {
 /*big title css code and animation*/
 .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .head-title {
@@ -157,18 +158,19 @@ body {
     overflow-wrap: break-word;
     color: #fff;
     animation: pulse 2s infinite alternate, fade 2s infinite alternate;
+    margin: 3rem;
 }
 
 /*text fix overflow*/
 @media (max-width: 768px) {
     .head-title {
-        font-size: 15vw; /* Adjust as needed for smaller screens */
+        font-size: 15vw;
     }
 }
 
 @media (min-width: 769px) {
     .head-title {
-        font-size: 5vw; /* Adjust as needed for larger screens */
+        font-size: 5vw;
     }
 }
 /*fix end*/
@@ -191,6 +193,43 @@ body {
     }
 }
 /*big title css code and animation end*/
+
+/*Start of animated button*/
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.first-page-button {
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border: 2px solid rgba(153, 0, 255, 0.274);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 2s ease;
+}
+
+.first-page-button:hover {
+    background-color: rgba(53, 9, 124, 0.712); 
+    animation: flash 2s; 
+}
+
+/* Flash Animation */
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*End of animated button*/
 
 /*footer css code*/
 .footer {

@@ -566,3 +566,88 @@
 .special-get-quote-button:hover {
     background-color: #761ac2;
 }
+
+/*Entertainment events service*/
+
+.entertainment-events {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.entertainment-events-content {
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.entertainment-events-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.entertainment-events-details {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.entertainment-events-details h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.entertainment-events-details p {
+    font-size: 1.6remx;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .entertainment-events-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2vw;
+    }
+
+    .entertainment-events-details h2,
+    .entertainment-events-details p {
+        text-align: center;
+    }
+
+    .entertainment-events-details {
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+
+    .entertainment-get-quote-button {
+        margin: 20px auto; 
+    }
+}
+
+.entertainment-get-quote-button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    width: 10rem;
+    border: none;
+    border-radius: 20px;
+    background: rgba(66, 51, 202, 0.651);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.entertainment-get-quote-button:hover {
+    background-color: #761ac2;
+}

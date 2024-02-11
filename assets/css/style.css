@@ -309,6 +309,7 @@
     background: url('/assets/img/services-background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 150px;
 }
 
 /*Themed events service*/

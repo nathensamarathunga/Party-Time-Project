@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -151,13 +152,27 @@ body {
 }
 
 .head-title {
-    font-size: 13vw;
+    font-size: 5vw;
     font-weight: bold;
     text-align: center;
-    overflow-wrap: normal;
+    overflow-wrap: break-word;
     color: #fff;
     animation: pulse 2s infinite alternate, fade 2s infinite alternate;
 }
+
+/*text fix overflow*/
+@media (max-width: 768px) {
+    .head-title {
+        font-size: 15vw; /* Adjust as needed for smaller screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .head-title {
+        font-size: 5vw; /* Adjust as needed for larger screens */
+    }
+}
+/*fix end*/
 
 @keyframes pulse {
     from {

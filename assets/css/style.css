@@ -651,3 +651,117 @@
 .entertainment-get-quote-button:hover {
     background-color: #761ac2;
 }
+
+/*Other events service*/
+
+.other-events {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.other-events-content {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.other-events-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.other-events-details {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.other-events-details h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.other-events-details p {
+    font-size: 1.6remx;
+    text-align: left;
+}
+
+.other-events-details ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.other-events-details ul li {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .other-events-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2vw;
+    }
+
+    .other-events-details h2,
+    .other-events-details p {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    .other-events-details {
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+
+    .other-services-list-div {
+        align-items: center;
+        margin-left: 25vw;
+    }
+    .other-services-list ul,
+    .other-services-list li {
+        list-style-position: inside;
+    }
+
+    .other-get-quote-button {
+        margin: 20px auto; 
+    }
+
+}
+
+.other-get-quote-button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    width: 10rem;
+    border: none;
+    border-radius: 20px;
+    background: rgba(66, 51, 202, 0.651);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.other-get-quote-button:hover {
+    background-color: #761ac2;
+}
+
+.separator-line {
+    border: none;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    margin: 40px 0;
+}

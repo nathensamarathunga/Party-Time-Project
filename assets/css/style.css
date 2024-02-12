@@ -765,3 +765,26 @@
     backdrop-filter: blur(50px);
     margin: 40px 0;
 }
+
+
+
+
+/*END OF SERVIES PAGE*/
+
+
+
+/*START OF CONTACT PAGE*/
+
+.contact-page-main {
+    min-height: 100vh;
+    background: url('/assets/img/contact-background.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.under-construction {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}

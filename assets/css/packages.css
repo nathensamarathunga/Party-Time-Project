@@ -5,13 +5,15 @@
     background: url('/assets/img/packages-background.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
-/* styles.css */
+p {
+    color: white;
+}
 
-/* Add margin to the top of the page equal to the height of the navbar */
 body {
-    margin-top: 100px; /* Adjust this value according to your navbar height */
+    margin-top: 100px; 
     margin-bottom: 100px;
     padding: 40px;
 }
@@ -127,6 +129,53 @@ body {
         display: block;
         margin: 0 auto;
         }
+
+    .custom-package-button {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
+
+/*start of custom package css code*/
+
+#custom-package {
+    background-color: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    border: 2px solid rgb(174, 0, 255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#custom-package .container {
+    text-align: center;
+}
+
+#custom-package h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#custom-package p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.custom-package-button {
+    padding: 10px 20px;
+    background-color: rgba(66, 51, 202, 0.651);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-package-button:hover {
+    background-color: #0056b3;
+}
 

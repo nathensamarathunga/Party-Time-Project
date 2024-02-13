@@ -5,6 +5,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+.contact-page-main {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
 
 /*Nav bar code start*/
 .header-contact {
@@ -184,9 +188,12 @@ body {
 .form-control, 
 textarea {
   max-width: 400px;
-  background-color: #000;
+  background-color: #000000c4;
   color: #fff;
   letter-spacing: 1px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px !important;
 }
 
 .send-button {
@@ -195,12 +202,18 @@ textarea {
   width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
+  border: 2px solid rgba(225, 0, 255, 0.336);
+  border-radius: 10px;
 }
 
 .alt-send-button {
-  width: 400px;
-  height: 34px;
-  transition: all .2s ease-in-out;
+  padding: 10px 20px;
+    background-color: rgba(66, 51, 202, 0.651);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .send-text {

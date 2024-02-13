@@ -1,0 +1,113 @@
+/* styles.css */
+
+.packages-page-main {
+    min-height: 100vh;
+    background: url('/assets/img/background.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* styles.css */
+
+/* Add margin to the top of the page equal to the height of the navbar */
+body {
+    margin-top: 100px; /* Adjust this value according to your navbar height */
+    margin-bottom: 100px;
+    padding: 40px;
+}
+
+.package {
+    margin: 20px 0;
+    border: 2px solid #7700ff;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bronze-package {
+    border: 2px solid #CD7F32;
+    background: rgba(205, 127, 50, 0.685);
+    backdrop-filter: blur(50px);
+    
+}
+
+.silver-package {
+    border: 2px solid silver;
+    background: rgba(95, 95, 95, 0.685);
+    backdrop-filter: blur(50px);
+    
+}
+
+.gold-package {
+    border: 2px solid gold;
+    background: rgba(255, 217, 0, 0.411);
+    backdrop-filter: blur(50px);
+    
+}
+
+.package h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.package p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.package hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 50%; /* Two features per row on mobile */
+    padding: 10px;
+    text-align: center;
+}
+
+.feature img {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    object-fit: cover; /* Ensure images cover the container */
+    border-radius: 10px;
+    margin: 0 auto 10px auto;
+}
+
+.feature p {
+    font-size: 14px;
+}
+
+.get-quote {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    width: 10rem;
+    border: none;
+    border-radius: 20px;
+    background: rgba(66, 51, 202, 0.651);
+    backdrop-filter: blur(50px);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.get-quote:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for smaller screens */
+@media screen and (min-width: 768px) {
+    .feature {
+        width: 25%; /* Four features per row on larger screens */
+    }
+}
+
+

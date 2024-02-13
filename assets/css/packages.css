@@ -2,7 +2,7 @@
 
 .packages-page-main {
     min-height: 100vh;
-    background: url('/assets/img/background.jpeg') no-repeat;
+    background: url('/assets/img/packages-background.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -110,8 +110,15 @@ body {
 /* Media Query for smaller screens */
 @media screen and (min-width: 768px) {
     .feature {
-        width: 25%; /* Four features per row on larger screens */
+        width: 25%;
     }
+}
+ /*Button centering automated*/
+@media screen and (max-width: 768px) {
+    .get-quote {
+        display: block;
+        margin: 0 auto;
+        }
 }
 
 

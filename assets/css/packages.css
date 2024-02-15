@@ -40,21 +40,21 @@ body {
 
 .bronze-package {
     border: 2px solid #CD7F32;
-    background: rgba(205, 127, 50, 0.685);
+    background: rgba(205, 128, 50, 0.486);
     backdrop-filter: blur(50px);
     
 }
 
 .silver-package {
     border: 2px solid silver;
-    background: rgba(95, 95, 95, 0.685);
+    background: rgba(95, 95, 95, 0.39);
     backdrop-filter: blur(50px);
     
 }
 
 .gold-package {
     border: 2px solid gold;
-    background: rgba(255, 217, 0, 0.411);
+    background: rgba(255, 217, 0, 0.281);
     backdrop-filter: blur(50px);
     
 }

@@ -7,7 +7,7 @@
 
 .home-page-main {
     min-height: 100vh;
-    background: url('/assets/img/background.jpeg') no-repeat;
+    background: url('../img/background.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -306,7 +306,7 @@
 
 .services-page-main {
     min-height: 100vh;
-    background: url('/assets/img/services-background.jpg') no-repeat;
+    background: url('../img/services-background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 150px;
@@ -777,7 +777,7 @@
 
 .contact-page-main {
     min-height: 100vh;
-    background: url('/assets/img/contact-background.jpeg') no-repeat;
+    background: url('../img/contact-background.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
